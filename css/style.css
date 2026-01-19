@@ -10,8 +10,8 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 900px;
+.header_container {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -52,9 +52,8 @@ body {
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
 }
 
 .card {
@@ -67,6 +66,7 @@ body {
   border-radius: 20px;
   padding: 2.5rem;
   text-align: center;
+  min-width: 300px;
 }
 
 .title_description {
@@ -93,6 +93,36 @@ body {
   color: grey;
 }
 
-.annual_discount{
-    padding: 1.5rem;
+.annual_discount {
+  padding: 1.5rem;
+  font-weight: 500;
+}
+
+.discount {
+  background-color: lightgray;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.select_plan {
+  padding: 1.5rem 0;
+  display: flex;
+}
+
+.select_plan > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  background-color: #6500ff;
+  padding: 1rem 6rem;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+
+.content_list {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
 }
