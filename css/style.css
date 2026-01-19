@@ -70,6 +70,7 @@ body {
   min-width: 300px;
 }
 
+/* Titolo e sottotitolo */
 .title_description {
   text-align: left;
   padding-bottom: 1.5rem;
@@ -85,6 +86,7 @@ body {
   }
 }
 
+/* Costo del piano */
 .amount {
   font-size: 3rem;
   font-weight: 700;
@@ -98,6 +100,7 @@ body {
   color: grey;
 }
 
+/* Sconto annuale */
 .annual_discount {
   padding: 1.5rem;
   font-weight: 500;
@@ -109,6 +112,7 @@ body {
   border-radius: 10px;
 }
 
+/* Bottone selezione piano */
 .select_plan {
   padding: 1.5rem 0;
   display: flex;
@@ -119,11 +123,12 @@ body {
   color: white;
   font-weight: 500;
   background-color: #6500ff;
-  padding: 1rem 6rem;
+  padding: 1.5rem 6rem;
   border-radius: 15px;
   flex-grow: 1;
 }
 
+/* Lista Features */
 .content_list {
   padding-top: 1.5rem;
   display: flex;
@@ -133,41 +138,37 @@ body {
   align-items: flex-start;
   font-weight: 500;
 
+  div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
   div i {
-    padding-right: 1rem;
     font-size: 1.5rem;
   }
 }
 
 /* Second card different parameters */
-.second_card{
-    background-color: #6500ff;
-    color: white;
+.second_card {
+  background-color: #6500ff;
+  color: white;
 }
 
 .second_card .select_plan > a {
-  text-decoration: none;
   color: #6500ff;
-  font-weight: 500;
   background-color: white;
-  padding: 1rem 6rem;
-  border-radius: 15px;
-  flex-grow: 1;
 }
 
 .second_card .description {
-    color: white;
-    font-size: 0.8rem;
-    font-weight: 500;
-  }
+  color: white;
+}
 
-  .second_card .period {
+.second_card .period {
   color: white;
 }
 
 .second_card .discount {
   background-color: #e3e3e3;
   color: black;
-  padding: 0.5rem;
-  border-radius: 10px;
 }
