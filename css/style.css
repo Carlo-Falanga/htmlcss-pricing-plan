@@ -54,7 +54,7 @@ body {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .card {
@@ -104,7 +104,7 @@ body {
 }
 
 .discount {
-  background-color: lightgray;
+  background-color: #e3e3e3;
   padding: 0.5rem;
   border-radius: 10px;
 }
@@ -140,3 +140,34 @@ body {
 }
 
 /* Second card different parameters */
+.second_card{
+    background-color: #6500ff;
+    color: white;
+}
+
+.second_card .select_plan > a {
+  text-decoration: none;
+  color: #6500ff;
+  font-weight: 500;
+  background-color: white;
+  padding: 1rem 6rem;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+
+.second_card .description {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .second_card .period {
+  color: white;
+}
+
+.second_card .discount {
+  background-color: #e3e3e3;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
